@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get the input number from the user
+read -p "Enter a number: " user_input
+
+# Compare the input to 10
+if ((user_input > 10)); then
+    echo "The input is larger than 10."
+elif ((user_input == 10)); then
+    echo "The input is equal to 10."
+else
+    echo "The input is smaller than 10."
+fi
